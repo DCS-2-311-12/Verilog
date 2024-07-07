@@ -1,0 +1,140 @@
+{
+  "creator": "Yosys 0.36 (git sha1 8f07a0d8404, clang 14.0.3 -fPIC -Os)",
+  "modules": {
+    "mux2": {
+      "attributes": {
+        "src": "ex405.sv:1.1-5.10"
+      },
+      "ports": {
+        "d0": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5 ]
+        },
+        "d1": {
+          "direction": "input",
+          "bits": [ 6, 7, 8, 9 ]
+        },
+        "s": {
+          "direction": "input",
+          "bits": [ 10 ]
+        },
+        "y": {
+          "direction": "output",
+          "bits": [ 11, 12, 13, 14 ]
+        }
+      },
+      "cells": {
+        "$auto$muxcover.cc:516:implement_best_cover$88": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 6 ],
+            "S": [ 10 ],
+            "Y": [ 11 ]
+          }
+        },
+        "$auto$muxcover.cc:516:implement_best_cover$89": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "B": [ 7 ],
+            "S": [ 10 ],
+            "Y": [ 12 ]
+          }
+        },
+        "$auto$muxcover.cc:516:implement_best_cover$90": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "B": [ 8 ],
+            "S": [ 10 ],
+            "Y": [ 13 ]
+          }
+        },
+        "$auto$muxcover.cc:516:implement_best_cover$91": {
+          "hide_name": 1,
+          "type": "$_MUX_",
+          "parameters": {
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "B": [ 9 ],
+            "S": [ 10 ],
+            "Y": [ 14 ]
+          }
+        }
+      },
+      "netnames": {
+        "d0": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5 ],
+          "attributes": {
+            "src": "ex405.sv:1.31-1.33"
+          }
+        },
+        "d1": {
+          "hide_name": 0,
+          "bits": [ 6, 7, 8, 9 ],
+          "attributes": {
+            "src": "ex405.sv:1.35-1.37"
+          }
+        },
+        "s": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "ex405.sv:2.25-2.26"
+          }
+        },
+        "y": {
+          "hide_name": 0,
+          "bits": [ 11, 12, 13, 14 ],
+          "attributes": {
+            "src": "ex405.sv:3.32-3.33"
+          }
+        }
+      }
+    }
+  }
+}

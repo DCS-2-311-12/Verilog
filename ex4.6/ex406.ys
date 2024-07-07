@@ -1,0 +1,4 @@
+read_verilog -sv ex406.sv
+synth
+abc
+write_json ex406.json

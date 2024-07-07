@@ -1,0 +1,234 @@
+{
+  "creator": "Yosys 0.36 (git sha1 8f07a0d8404, clang 14.0.3 -fPIC -Os)",
+  "modules": {
+    "mux4": {
+      "attributes": {
+        "src": "ex406.sv:1.1-6.10"
+      },
+      "ports": {
+        "d0": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5 ]
+        },
+        "d1": {
+          "direction": "input",
+          "bits": [ 6, 7, 8, 9 ]
+        },
+        "d2": {
+          "direction": "input",
+          "bits": [ 10, 11, 12, 13 ]
+        },
+        "d3": {
+          "direction": "input",
+          "bits": [ 14, 15, 16, 17 ]
+        },
+        "s": {
+          "direction": "input",
+          "bits": [ 18, 19 ]
+        },
+        "y": {
+          "direction": "output",
+          "bits": [ 20, 21, 22, 23 ]
+        }
+      },
+      "cells": {
+        "$auto$muxcover.cc:526:implement_best_cover$107": {
+          "hide_name": 1,
+          "type": "$_MUX4_",
+          "parameters": {
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "S": "input",
+            "T": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "B": [ 6 ],
+            "C": [ 10 ],
+            "D": [ 14 ],
+            "S": [ 18 ],
+            "T": [ 19 ],
+            "Y": [ 20 ]
+          }
+        },
+        "$auto$muxcover.cc:526:implement_best_cover$108": {
+          "hide_name": 1,
+          "type": "$_MUX4_",
+          "parameters": {
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "S": "input",
+            "T": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "B": [ 7 ],
+            "C": [ 11 ],
+            "D": [ 15 ],
+            "S": [ 18 ],
+            "T": [ 19 ],
+            "Y": [ 21 ]
+          }
+        },
+        "$auto$muxcover.cc:526:implement_best_cover$109": {
+          "hide_name": 1,
+          "type": "$_MUX4_",
+          "parameters": {
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "S": "input",
+            "T": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "B": [ 8 ],
+            "C": [ 12 ],
+            "D": [ 16 ],
+            "S": [ 18 ],
+            "T": [ 19 ],
+            "Y": [ 22 ]
+          }
+        },
+        "$auto$muxcover.cc:526:implement_best_cover$110": {
+          "hide_name": 1,
+          "type": "$_MUX4_",
+          "parameters": {
+          },
+          "attributes": {
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "C": "input",
+            "D": "input",
+            "S": "input",
+            "T": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "B": [ 9 ],
+            "C": [ 13 ],
+            "D": [ 17 ],
+            "S": [ 18 ],
+            "T": [ 19 ],
+            "Y": [ 23 ]
+          }
+        }
+      },
+      "netnames": {
+        "$abc$93$new_n24": {
+          "hide_name": 1,
+          "bits": [ 24 ],
+          "attributes": {
+          }
+        },
+        "$abc$93$new_n25": {
+          "hide_name": 1,
+          "bits": [ 25 ],
+          "attributes": {
+          }
+        },
+        "$abc$93$new_n27": {
+          "hide_name": 1,
+          "bits": [ 26 ],
+          "attributes": {
+          }
+        },
+        "$abc$93$new_n28": {
+          "hide_name": 1,
+          "bits": [ 27 ],
+          "attributes": {
+          }
+        },
+        "$abc$93$new_n30": {
+          "hide_name": 1,
+          "bits": [ 28 ],
+          "attributes": {
+          }
+        },
+        "$abc$93$new_n31": {
+          "hide_name": 1,
+          "bits": [ 29 ],
+          "attributes": {
+          }
+        },
+        "$abc$93$new_n33": {
+          "hide_name": 1,
+          "bits": [ 30 ],
+          "attributes": {
+          }
+        },
+        "$abc$93$new_n34": {
+          "hide_name": 1,
+          "bits": [ 31 ],
+          "attributes": {
+          }
+        },
+        "d0": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5 ],
+          "attributes": {
+            "src": "ex406.sv:1.31-1.33"
+          }
+        },
+        "d1": {
+          "hide_name": 0,
+          "bits": [ 6, 7, 8, 9 ],
+          "attributes": {
+            "src": "ex406.sv:1.35-1.37"
+          }
+        },
+        "d2": {
+          "hide_name": 0,
+          "bits": [ 10, 11, 12, 13 ],
+          "attributes": {
+            "src": "ex406.sv:1.39-1.41"
+          }
+        },
+        "d3": {
+          "hide_name": 0,
+          "bits": [ 14, 15, 16, 17 ],
+          "attributes": {
+            "src": "ex406.sv:1.43-1.45"
+          }
+        },
+        "s": {
+          "hide_name": 0,
+          "bits": [ 18, 19 ],
+          "attributes": {
+            "src": "ex406.sv:2.31-2.32"
+          }
+        },
+        "y": {
+          "hide_name": 0,
+          "bits": [ 20, 21, 22, 23 ],
+          "attributes": {
+            "src": "ex406.sv:3.32-3.33"
+          }
+        }
+      }
+    }
+  }
+}

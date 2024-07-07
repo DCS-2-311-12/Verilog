@@ -1,0 +1,77 @@
+{
+  "creator": "Yosys 0.42 (git sha1 9b6afcf3f, clang++ 15.0.0 -fPIC -Os)",
+  "modules": {
+    "tristate": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "ex410.sv:1.1-5.10"
+      },
+      "ports": {
+        "a": {
+          "direction": "input",
+          "bits": [ 2, 3, 4, 5 ]
+        },
+        "en": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "y": {
+          "direction": "output",
+          "bits": [ 7, 8, 9, 10 ]
+        }
+      },
+      "cells": {
+        "$ternary$ex410.sv:4$1": {
+          "hide_name": 1,
+          "type": "$tribuf",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000100"
+          },
+          "attributes": {
+            "src": "ex410.sv:4.16-4.29"
+          },
+          "port_directions": {
+            "A": "input",
+            "EN": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2, 3, 4, 5 ],
+            "EN": [ 6 ],
+            "Y": [ 7, 8, 9, 10 ]
+          }
+        }
+      },
+      "netnames": {
+        "$ternary$ex410.sv:4$1_Y": {
+          "hide_name": 1,
+          "bits": [ 7, 8, 9, 10 ],
+          "attributes": {
+            "src": "ex410.sv:4.16-4.29"
+          }
+        },
+        "a": {
+          "hide_name": 0,
+          "bits": [ 2, 3, 4, 5 ],
+          "attributes": {
+            "src": "ex410.sv:1.36-1.37"
+          }
+        },
+        "en": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "ex410.sv:2.36-2.38"
+          }
+        },
+        "y": {
+          "hide_name": 0,
+          "bits": [ 7, 8, 9, 10 ],
+          "attributes": {
+            "src": "ex410.sv:3.36-3.37"
+          }
+        }
+      }
+    }
+  }
+}

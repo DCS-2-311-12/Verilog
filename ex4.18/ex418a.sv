@@ -1,0 +1,9 @@
+module flopr(input  logic       clk,
+             input  logic       reset,
+             input  logic [3:0] d,
+             output logic [3:0] q);
+    // 非同期リセット
+    always_ff@(posedge clk, posedge reset)
+        if (reset) q <= 4'b0;
+        else       q <= d;
+endmodule
