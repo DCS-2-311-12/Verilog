@@ -1,5 +1,5 @@
 {
-  "creator": "Yosys 0.42 (git sha1 9b6afcf3f, clang++ 15.0.0 -fPIC -Os)",
+  "creator": "Yosys 0.42+40 (git sha1 dac5bd198, x86_64-w64-mingw32-g++ 13.2.1 -Os)",
   "modules": {
     "gates": {
       "attributes": {

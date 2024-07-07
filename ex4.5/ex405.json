@@ -1,5 +1,5 @@
 {
-  "creator": "Yosys 0.36 (git sha1 8f07a0d8404, clang 14.0.3 -fPIC -Os)",
+  "creator": "Yosys 0.42+40 (git sha1 dac5bd198, x86_64-w64-mingw32-g++ 13.2.1 -Os)",
   "modules": {
     "mux2": {
       "attributes": {
